@@ -1,0 +1,360 @@
+2019-11-20 16:09:55.943  INFO 3362 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on Shahjahans-iMac-2.local with PID 3362 (/Users/shahjahansamon/Documents/workspace-sts/demo/bin/main started by shahjahansamon in /Users/shahjahansamon/Documents/workspace-sts/demo)
+2019-11-20 16:09:55.946  INFO 3362 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-11-20 16:09:58.828  INFO 3362 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 16:09:58.876 DEBUG 3362 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for repositories in packages com.example.demo.
+2019-11-20 16:09:58.894 DEBUG 3362 --- [main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/Users/shahjahansamon/Documents/workspace-sts/demo/bin/main/com/example/demo/models/UserRepository.class]
+2019-11-20 16:09:59.003  INFO 3362 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 1 repository interfaces.
+2019-11-20 16:09:59.343  INFO 3362 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9bcbd39e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-20 16:09:59.346  INFO 3362 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-20 16:09:59.349  INFO 3362 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@50a3d0f6' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-20 16:09:59.352  INFO 3362 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c0a07650] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-20 16:09:59.354  INFO 3362 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-20 16:09:59.688  INFO 3362 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-20 16:09:59.724  INFO 3362 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-20 16:09:59.724  INFO 3362 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-11-20 16:09:59.970  INFO 3362 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-20 16:09:59.971  INFO 3362 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3909 ms
+2019-11-20 16:10:05.374  INFO 3362 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-20 16:10:05.376  INFO 3362 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-11-20 16:10:05.693  INFO 3362 --- [cluster-ClusterId{value='5dd51f0d918cea0d228cd034', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2019-11-20 16:10:05.706  INFO 3362 --- [cluster-ClusterId{value='5dd51f0d918cea0d228cd034', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6177324}
+2019-11-20 16:10:05.708  INFO 3362 --- [cluster-ClusterId{value='5dd51f0d918cea0d228cd034', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-11-20 16:10:06.168 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class interface org.springframework.security.core.GrantedAuthority for index information.
+2019-11-20 16:10:06.168 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.security.MongoClientDetails for index information.
+2019-11-20 16:10:06.177 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.security.MongoRefreshToken for index information.
+2019-11-20 16:10:06.178 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.security.MongoAuthorizationCode for index information.
+2019-11-20 16:10:06.178 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.security.MongoAccessToken for index information.
+2019-11-20 16:10:06.178 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.models.User for index information.
+2019-11-20 16:10:06.179 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.security.RefreshToken for index information.
+2019-11-20 16:10:06.179 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class com.example.demo.security.AccessToken for index information.
+2019-11-20 16:10:06.296 DEBUG 3362 --- [main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.example.demo.models.UserRepository…
+2019-11-20 16:10:06.647 DEBUG 3362 --- [main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.example.demo.models.UserRepository.
+2019-11-20 16:10:08.048  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/users/images/**'], []
+2019-11-20 16:10:08.057  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2019-11-20 16:10:08.057  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/sms/send'], []
+2019-11-20 16:10:08.057  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/mail/send'], []
+2019-11-20 16:10:08.057  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2019-11-20 16:10:08.057  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2019-11-20 16:10:08.057  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2019-11-20 16:10:08.058  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2019-11-20 16:10:08.058  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2019-11-20 16:10:08.101  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43935e9c, org.springframework.security.web.context.SecurityContextPersistenceFilter@21a46ff1, org.springframework.security.web.header.HeaderWriterFilter@6a55594b, org.springframework.security.web.authentication.logout.LogoutFilter@44b940a2, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@31da0434, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@b2c4a8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bcae9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14c99bf6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@101cf747, org.springframework.security.web.session.SessionManagementFilter@195113de, org.springframework.security.web.access.ExceptionTranslationFilter@66e827a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6db328f8]
+2019-11-20 16:10:08.108  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@168142da, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60bf494c, org.springframework.security.web.context.SecurityContextPersistenceFilter@a90e2c1, org.springframework.security.web.header.HeaderWriterFilter@5edc3e29, org.springframework.security.web.authentication.logout.LogoutFilter@2b877a54, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@6070775e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@89caf47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@370ef50b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47a4eee2, org.springframework.security.web.session.SessionManagementFilter@18709cb2, org.springframework.security.web.access.ExceptionTranslationFilter@559af296, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49671897]
+2019-11-20 16:10:08.110  INFO 3362 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39ab5ef7, org.springframework.security.web.context.SecurityContextPersistenceFilter@45d56062, org.springframework.security.web.header.HeaderWriterFilter@35bd8bc9, org.springframework.security.web.authentication.logout.LogoutFilter@7436364d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4026461d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@191c6e13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@517704, org.springframework.security.web.session.SessionManagementFilter@6de004f1, org.springframework.security.web.access.ExceptionTranslationFilter@1472208d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57bd6a8f]
+2019-11-20 16:10:08.127  INFO 3362 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-20 16:10:08.205  INFO 3362 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-20 16:10:08.353  INFO 3362 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-20 16:10:08.380  INFO 3362 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-20 16:10:08.444  INFO 3362 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-20 16:10:08.877  INFO 3362 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-20 16:10:08.879  INFO 3362 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 28.602 seconds (JVM running for 35.173)
+2019-11-20 16:10:08.915  INFO 3362 --- [main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2019-11-20 16:10:09.012 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : Dropped collection [user]
+2019-11-20 16:10:09.037 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : Dropped collection [client_details]
+2019-11-20 16:10:09.064 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : Dropped collection [access_token]
+2019-11-20 16:10:09.107 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : Dropped collection [refresh_token]
+2019-11-20 16:10:09.158 DEBUG 3362 --- [main] o.s.d.m.r.query.MongoQueryCreator        : Created query Query: { "username" : "samoon" }, Fields: { }, Sort: { }
+2019-11-20 16:10:09.174 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : find using query: { "username" : "samoon" } fields: Document{{}} for class: class com.example.demo.models.User in collection: user
+2019-11-20 16:10:09.282 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : Inserting Document containing fields: [name, username, password, roles, enabled, accountNonExpired, accountNonLocked, credentialsNonExpired] in collection: user
+2019-11-20 16:10:09.469 DEBUG 3362 --- [main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class org.springframework.security.core.authority.SimpleGrantedAuthority for index information.
+2019-11-20 16:10:09.476 DEBUG 3362 --- [main] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [clientId, secretRequired, clientSecret, scoped, scope, authorizedGrantTypes, authorities, accessTokenValiditySeconds, refreshTokenValiditySeconds, autoApprove]
+2019-11-20 16:11:22.691  INFO 3362 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-20 16:11:22.702  INFO 3362 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-20 16:11:22.722  INFO 3362 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2019-11-20 16:11:23.009 DEBUG 3362 --- [http-nio-8080-exec-2] o.s.d.m.r.query.MongoQueryCreator        : Created query Query: { "username" : "samoon" }, Fields: { }, Sort: { }
+2019-11-20 16:11:23.009 DEBUG 3362 --- [http-nio-8080-exec-2] o.s.data.mongodb.core.MongoTemplate      : find using query: { "username" : "samoon" } fields: Document{{}} for class: class com.example.demo.models.User in collection: user
+2019-11-20 16:11:23.107 ERROR 3362 --- [http-nio-8080-exec-2] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, User account is locked!
+
+org.springframework.security.authentication.InternalAuthenticationServiceException: User account is locked!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:513) ~[spring-security-config-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter.getOAuth2Authentication(ResourceOwnerPasswordTokenGranter.java:71) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.getAccessToken(AbstractTokenGranter.java:72) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.grant(AbstractTokenGranter.java:67) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.CompositeTokenGranter.grant(CompositeTokenGranter.java:38) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer$4.grant(AuthorizationServerEndpointsConfigurer.java:583) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(TokenEndpoint.java:132) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at com.example.demo.security.PreSecurityFilter.doFilter(PreSecurityFilter.java:36) [main/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: org.springframework.security.oauth2.common.exceptions.UserDeniedAuthorizationException: User account is locked!
+	at com.example.demo.security.CustomOauthException.create(CustomOauthException.java:111) ~[main/:na]
+	at com.example.demo.security.CustomUserDetailsService.loadUserByUsername(CustomUserDetailsService.java:43) ~[main/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 102 common frames omitted
+
+2019-11-20 16:12:35.849 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.d.m.r.query.MongoQueryCreator        : Created query Query: { "username" : "samoon" }, Fields: { }, Sort: { }
+2019-11-20 16:12:35.850 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : find using query: { "username" : "samoon" } fields: Document{{}} for class: class com.example.demo.models.User in collection: user
+2019-11-20 16:12:35.935 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "authenticationId" : "7754af9481b52ce7fdce78cd6119868a" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:12:35.936 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "authenticationId" : "7754af9481b52ce7fdce78cd6119868a" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:12:35.952 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:12:35.952 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:12:36.011 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [tokenId, token, authenticationId, username, clientId, authentication, refreshToken]
+2019-11-20 16:12:36.102 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [tokenId, token, authentication]
+2019-11-20 16:15:07.269 DEBUG 3362 --- [http-nio-8080-exec-8] o.s.d.m.r.query.MongoQueryCreator        : Created query Query: { "username" : "samoon1" }, Fields: { }, Sort: { }
+2019-11-20 16:15:07.271 DEBUG 3362 --- [http-nio-8080-exec-8] o.s.data.mongodb.core.MongoTemplate      : find using query: { "username" : "samoon1" } fields: Document{{}} for class: class com.example.demo.models.User in collection: user
+2019-11-20 16:15:07.273 ERROR 3362 --- [http-nio-8080-exec-8] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, Incorrect username/password!
+
+org.springframework.security.authentication.InternalAuthenticationServiceException: Incorrect username/password!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:503) ~[spring-security-config-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter.getOAuth2Authentication(ResourceOwnerPasswordTokenGranter.java:71) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.getAccessToken(AbstractTokenGranter.java:72) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.grant(AbstractTokenGranter.java:67) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.CompositeTokenGranter.grant(CompositeTokenGranter.java:38) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer$4.grant(AuthorizationServerEndpointsConfigurer.java:583) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(TokenEndpoint.java:132) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at com.example.demo.security.PreSecurityFilter.doFilter(PreSecurityFilter.java:36) [main/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: org.springframework.security.oauth2.common.exceptions.UserDeniedAuthorizationException: Incorrect username/password!
+	at com.example.demo.security.CustomOauthException.create(CustomOauthException.java:123) ~[main/:na]
+	at com.example.demo.security.CustomUserDetailsService.loadUserByUsername(CustomUserDetailsService.java:71) ~[main/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 102 common frames omitted
+
+2019-11-20 16:18:20.835 DEBUG 3362 --- [http-nio-8080-exec-1] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "4b180b576680b6d993bf9f503cdaea75" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:18:20.843 DEBUG 3362 --- [http-nio-8080-exec-1] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "4b180b576680b6d993bf9f503cdaea75" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:18:44.170 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.d.m.r.query.MongoQueryCreator        : Created query Query: { "username" : "samoon" }, Fields: { }, Sort: { }
+2019-11-20 16:18:44.171 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : find using query: { "username" : "samoon" } fields: Document{{}} for class: class com.example.demo.models.User in collection: user
+2019-11-20 16:18:44.251 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "authenticationId" : "7754af9481b52ce7fdce78cd6119868a" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:18:44.251 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "authenticationId" : "7754af9481b52ce7fdce78cd6119868a" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:18:44.274 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:18:44.274 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:18:44.279 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:18:44.279 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:18:44.296 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : Remove using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } in collection: access_token.
+2019-11-20 16:18:44.350 DEBUG 3362 --- [http-nio-8080-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [tokenId, token, authenticationId, username, clientId, authentication, refreshToken]
+2019-11-20 16:18:52.637 DEBUG 3362 --- [http-nio-8080-exec-4] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:18:52.637 DEBUG 3362 --- [http-nio-8080-exec-4] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:18:52.639 DEBUG 3362 --- [http-nio-8080-exec-4] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:18:52.639 DEBUG 3362 --- [http-nio-8080-exec-4] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "11896481c1dd209926116090eec9addc" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:19:20.228 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "8093fb79aff38ed90d861020dec73f30" } fields: Document{{}} for class: class com.example.demo.security.MongoRefreshToken in collection: refresh_token
+2019-11-20 16:19:20.228 DEBUG 3362 --- [http-nio-8080-exec-5] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "8093fb79aff38ed90d861020dec73f30" } fields: { } in db.collection: mydb.refresh_token
+2019-11-20 16:19:20.229  WARN 3362 --- [http-nio-8080-exec-5] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InvalidGrantException, Invalid refresh token: dfc0c8df-9c4b-4432-bcf1-b712f4db5561
+2019-11-20 16:19:32.844 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: Document{{}} for class: class com.example.demo.security.MongoRefreshToken in collection: refresh_token
+2019-11-20 16:19:32.845 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: { } in db.collection: mydb.refresh_token
+2019-11-20 16:19:32.846 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: Document{{}} for class: class com.example.demo.security.MongoRefreshToken in collection: refresh_token
+2019-11-20 16:19:32.847 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: { } in db.collection: mydb.refresh_token
+2019-11-20 16:19:32.850 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : Remove using query: { "refreshToken" : "585bcfd181e8451a4dfe3574ea713c8d" } in collection: access_token.
+2019-11-20 16:19:32.851 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "a3a5d93d665eb5ef44ab744f5e12addb" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:19:32.851 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "a3a5d93d665eb5ef44ab744f5e12addb" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:19:32.854 DEBUG 3362 --- [http-nio-8080-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [tokenId, token, authenticationId, username, clientId, authentication, refreshToken]
+2019-11-20 16:20:07.738 ERROR 3362 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.security.InvalidParameterException: deviceId must be provided!
+	at com.example.demo.security.PreSecurityFilter.doFilter(PreSecurityFilter.java:33) ~[main/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2019-11-20 16:20:21.653 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: Document{{}} for class: class com.example.demo.security.MongoRefreshToken in collection: refresh_token
+2019-11-20 16:20:21.654 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: { } in db.collection: mydb.refresh_token
+2019-11-20 16:20:21.655 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: Document{{}} for class: class com.example.demo.security.MongoRefreshToken in collection: refresh_token
+2019-11-20 16:20:21.655 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "585bcfd181e8451a4dfe3574ea713c8d" } fields: { } in db.collection: mydb.refresh_token
+2019-11-20 16:20:21.658 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : Remove using query: { "refreshToken" : "585bcfd181e8451a4dfe3574ea713c8d" } in collection: access_token.
+2019-11-20 16:20:21.659 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "2bf02067258a2c7a8d4058fd0d843069" } fields: Document{{}} for class: class com.example.demo.security.MongoAccessToken in collection: access_token
+2019-11-20 16:20:21.659 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "tokenId" : "2bf02067258a2c7a8d4058fd0d843069" } fields: { } in db.collection: mydb.access_token
+2019-11-20 16:20:21.664 DEBUG 3362 --- [http-nio-8080-exec-10] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [tokenId, token, authenticationId, username, clientId, authentication, refreshToken]
+2019-11-20 16:28:25.945  INFO 3362 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-20 16:28:25.969  INFO 3362 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-20 16:28:25.972  INFO 3362 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
